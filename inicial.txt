@@ -1,0 +1,24 @@
+Documentação
+	Criar uma brochura superficial e básica, relacionando as funcionalidades já implementadas aos conceitos do framework (TOGAF)
+
+Fontes de dados
+	Identificar as fontes utilizadas pela ferramenta;
+	Agrupar por afinidade (Catálogos, Gestão de configuração, Monitoração, Gestáo de serviços, etc...);
+	Identificar os possíveis métodos de acesso (API, REST, JDBC, CSV, Webservice, etc...);
+	Alterar os códigos para criação de uma camada que torne a ferramenta mais independente da relação com a fonte de dados
+	Gerar bases de dados estáticas populadas com os dados para apresentação do conceito.
+
+Integração com terceiros
+	Prospectar ferramentas de mercado que possam ser utilizadas para (inventário, monitoração, automação de deploy, data mining, etc...)
+	Criar plug-ins para coletar informações dessas ferramentas
+	Agrupar esses plug-ins numa camada extensível de "tradução" com saídas uniformes para a aplicação principal
+
+Padrão visual
+	Adequação do padrão visual da ferramenta alterando as cores, logotipos, disposição dos elementos e nomenclatura.
+	
+Backlog
+	Criar um documento apresentando o backlog da ferramenta, de modo que possamos direcionar o desenvolvimento de novas funcionalidades, apontando os ganhos para o cliente.
+
+Observações:
+	Não haverá Introscope para monitorar aplicações web;
+	Deveremos, portanto, analisar os logs de aplicação, utilizar ferramentas que monitorem o tráfego (Elastic Search, Kafka, Piwik, SharePath from CorrelSense);
